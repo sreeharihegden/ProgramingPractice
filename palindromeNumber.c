@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #define printf(f_, ...); printf((f_), ##__VA_ARGS__); fflush(stdout);
 
 int main(){
@@ -19,6 +18,6 @@ int main(){
 	else{
 		printf("Not a palindrome.");
 	}
-	getch();
+	
 	return 0;
 }
