@@ -19,6 +19,6 @@ int main(){
 	else{
 		printf("Not a palindrome.");
 	}
-	
+	getch();
 	return 0;
 }
