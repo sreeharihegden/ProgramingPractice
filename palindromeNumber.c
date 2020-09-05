@@ -11,7 +11,7 @@ int main(){
 		reversedNum = (reversedNum * 10) + currentDigit;
 		copyn1 = copyn1/10;
 	}
-	printf("Reversed number is %d.", reversedNum);
+	printf("Reversed number is %d.\n", reversedNum);
 	if(n1 == reversedNum){
 		printf("%d is palindrome.", n1);
 	}
